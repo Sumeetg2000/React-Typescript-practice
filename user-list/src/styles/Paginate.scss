@@ -1,0 +1,20 @@
+.pagination {
+  margin-top: 15px;
+  .pageNo {
+    height: 70px;
+    width: 70px;
+    margin-right: 30px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 100%;
+    color: whitesmoke;
+    background-color: rgba(141, 141, 141, 0.89);
+    box-shadow: 0 2px 4px 0 #747272, 0 3px 1px 0 rgba(0, 0, 0, 0.377);
+  }
+  .active {
+    box-shadow: 0 2px 4px 0 #424141, 0 6px 10px 0 rgba(0, 0, 0, 0.555);
+    background-color: rgba(52, 147, 231, 0.877);
+    pointer-events: none;
+    }
+}

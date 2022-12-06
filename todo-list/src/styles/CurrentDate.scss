@@ -1,0 +1,33 @@
+.currentDate {
+  display: flex;
+  justify-content: space-between;
+  margin: 10% 10% 5%;
+  position: sticky;
+
+  .presentDate {
+    display: flex;
+    align-items: center;
+
+    .date span {
+      font-size: 5vh;
+    }
+
+    .month p {
+      line-height: 0.1;
+      font-size: 1.7vh;
+    }
+
+    .month p:first-child {
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: -0.1vh;
+    }
+  }
+
+  .day {
+    float: right;
+    font-size: 2vh;
+    font-weight: 550;
+    letter-spacing: 0.1vh;
+  }
+}

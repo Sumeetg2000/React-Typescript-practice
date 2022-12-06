@@ -1,0 +1,36 @@
+.taskList {
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  width: 100%;
+  height: 53vh;
+
+  .task {
+    margin: 8% 15% 10% 2%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2vh;
+
+    .circle {
+      width: 2vh;
+      height: 2vh;
+      border: 1px solid gray;
+      border-radius: 100%;
+      display: inline-block;
+    }
+
+    .completed.task {
+      color: gray;
+    }
+  }
+  .completed.task {
+    .circle {
+      background-color: #4fe3a4;
+      border-color: #31a372;
+    }
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

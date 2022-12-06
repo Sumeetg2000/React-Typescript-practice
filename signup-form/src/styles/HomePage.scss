@@ -1,0 +1,65 @@
+.homePage {
+  margin: 0%;
+
+  .header {
+    box-sizing: border-box;
+    margin: 0%;
+    position: fixed;
+    top: 0;
+    width: 99%;
+    height: 5vh;
+    padding-right: 2vh;
+    padding-top: 0.8vh;
+    background-color: rgb(57, 66, 63);
+    color: whitesmoke;
+
+    .userName,
+    .logOut {
+      float: right;
+    }
+
+    .logOut {
+      width: 10vh;
+      height: 3.6vh;
+      border: 0.2px solid rgb(37, 32, 32);
+      border-radius: 20px;
+      background-color: rgb(32, 80, 151);
+      color: inherit;
+      font-size: 1.7vh;
+    }
+    .logOut:hover {
+      border: 0.3px solid rgb(53, 47, 47);
+      background-color: rgb(45, 79, 129);
+    }
+
+    .userName {
+      width: 10vh;
+      font-size: 3vh;
+      margin-right: 0%;
+    }
+  }
+  .userData {
+    margin-top: 15vh;
+    margin-left: 10%;
+    padding-top: 3vh;
+    width: 80%;
+    height: fit-content;
+    border: 0.2px solid black;
+    font-size: 5vh;
+    overflow: hidden;
+
+    .userImage {
+      width: 30%;
+      height: 30%;
+      margin-left: 20%;
+    }
+
+    .greeting {
+      margin-left: 5%;
+
+      .details {
+        color: rgb(128, 66, 66);
+      }
+    }
+  }
+}
